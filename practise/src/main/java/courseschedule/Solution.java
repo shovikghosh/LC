@@ -42,7 +42,6 @@ class Graph {
         Set<Integer> curPath = new HashSet<>();
 
         for (int i = 0; i < V; i++) {
-            //curPath.clear();
             if (isCyclic(i, visited, curPath)) {
                 return true;
             }
