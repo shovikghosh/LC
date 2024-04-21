@@ -108,14 +108,6 @@ class Solution {
         return "1" + sb.toString();
     }
 
-    private String add(char ch, String str) {
-        return add(str, ch);
-    }
-
-    private String add(String s1, String s2) {
-        return addStringsList(List.of(s1, s2));
-    }
-
     private String appendZeros(String num, int numZeros) {
         if (Objects.equals(num, "0"))
             return "0";

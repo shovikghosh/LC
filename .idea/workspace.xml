@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8775f9c-3358-4f01-9943-08a2def83493" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/practise/src/main/java/multiplystrings/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise/src/main/java/multiplystrings/Solution.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="SolutionTest.testMultiple_numberNumber" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fLzF8fLmJBgkQfgbVzyI87ZyIT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AppTest$JUnitTestSuite.executor": "Run",
+    "JUnit.AppTest.generatePackageName.executor": "Run",
+    "JUnit.AppTest.testApp.executor": "Run",
+    "JUnit.SolutionSuiteTest.executor": "Run",
+    "JUnit.SolutionTest (1).executor": "Run",
+    "JUnit.SolutionTest.executor": "Run",
+    "JUnit.SolutionTest.testAdd.executor": "Run",
+    "JUnit.SolutionTest.testAddCharsStr.executor": "Run",
+    "JUnit.SolutionTest.testAddStringsList.executor": "Run",
+    "JUnit.SolutionTest.testAddStringsList_2.executor": "Run",
+    "JUnit.SolutionTest.testAddStringsList_3.executor": "Run",
+    "JUnit.SolutionTest.testAdd_5.executor": "Run",
+    "JUnit.SolutionTest.testMultiple.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_doubleDigits.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberDigits.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberNumber.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberNumber_2.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberNumber_3.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberNumber_4.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberNumber_5.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_numberNumber_6.executor": "Run",
+    "JUnit.SolutionTest.testMultiple_singleDigits.executor": "Run",
+    "Maven.practise [org.apache.maven.plugins:maven-checkstyle-plugin:3.3.1:checkstyle].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/shovikghosh/Repos/LC",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="multiplystrings" />
+      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMultiple_numberDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="multiplystrings" />
+      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
+      <option name="METHOD_NAME" value="testMultiple_numberDigits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMultiple_numberNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="multiplystrings" />
+      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
+      <option name="METHOD_NAME" value="testMultiple_numberNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMultiple_numberNumber_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="multiplystrings" />
+      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
+      <option name="METHOD_NAME" value="testMultiple_numberNumber_5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMultiple_numberNumber_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="multiplystrings" />
+      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
+      <option name="METHOD_NAME" value="testMultiple_numberNumber_6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.testMultiple_numberDigits" />
+        <item itemvalue="JUnit.SolutionTest.testMultiple_numberNumber_5" />
+        <item itemvalue="JUnit.SolutionTest.testMultiple_numberNumber_6" />
+        <item itemvalue="JUnit.SolutionTest.testMultiple_numberNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8775f9c-3358-4f01-9943-08a2def83493" name="Changes" comment="" />
+      <created>1713595039962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713595039962</updated>
+    </task>
+    <servers />
+  </component>
+</project>
