@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8775f9c-3358-4f01-9943-08a2def83493" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/practise/src/main/java/multiplystrings/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise/src/main/java/multiplystrings/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/src/main/java/binarytreeinordertraversal/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/src/main/java/jumpgameii/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/src/main/java/maximumdepthofbinarytree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/src/main/java/pathsum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/src/main/java/utilclasses/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise/src/test/java/jumpgameii/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise/src/test/java/shovik/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise/src/test/java/shovik/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +30,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="SolutionTest.testMultiple_numberNumber" />
-    </enabled-run-configurations>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -35,114 +38,118 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AppTest$JUnitTestSuite.executor": "Run",
-    "JUnit.AppTest.generatePackageName.executor": "Run",
-    "JUnit.AppTest.testApp.executor": "Run",
-    "JUnit.SolutionSuiteTest.executor": "Run",
-    "JUnit.SolutionTest (1).executor": "Run",
-    "JUnit.SolutionTest.executor": "Run",
-    "JUnit.SolutionTest.testAdd.executor": "Run",
-    "JUnit.SolutionTest.testAddCharsStr.executor": "Run",
-    "JUnit.SolutionTest.testAddStringsList.executor": "Run",
-    "JUnit.SolutionTest.testAddStringsList_2.executor": "Run",
-    "JUnit.SolutionTest.testAddStringsList_3.executor": "Run",
-    "JUnit.SolutionTest.testAdd_5.executor": "Run",
-    "JUnit.SolutionTest.testMultiple.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_doubleDigits.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberDigits.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberNumber.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberNumber_2.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberNumber_3.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberNumber_4.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberNumber_5.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_numberNumber_6.executor": "Run",
-    "JUnit.SolutionTest.testMultiple_singleDigits.executor": "Run",
-    "Maven.practise [org.apache.maven.plugins:maven-checkstyle-plugin:3.3.1:checkstyle].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/shovikghosh/Repos/LC",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AppTest$JUnitTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.generatePackageName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AppTest.testApp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionSuiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testAddCharsStr.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testAddStringsList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testAddStringsList_2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testAddStringsList_3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testAdd_5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testJump.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testJump_2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testJump_3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testJump_4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_doubleDigits.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberDigits.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberNumber.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberNumber_2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberNumber_3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberNumber_4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberNumber_5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_numberNumber_6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SolutionTest.testMultiple_singleDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.practise [org.apache.maven.plugins:maven-checkstyle-plugin:3.3.1:checkstyle].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shovikghosh/Repos/LC&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.AppTest.generatePackageName">
+    <configuration name="AppTest.generatePackageName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="PATTERN" value="shovik.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="multiplystrings" />
-      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
+      <option name="PACKAGE_NAME" value="shovik" />
+      <option name="MAIN_CLASS_NAME" value="shovik.AppTest" />
+      <option name="METHOD_NAME" value="generatePackageName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jumpgameii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jumpgameii" />
+      <option name="MAIN_CLASS_NAME" value="jumpgameii.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testMultiple_numberDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testJump_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="PATTERN" value="jumpgameii.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="multiplystrings" />
-      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
-      <option name="METHOD_NAME" value="testMultiple_numberDigits" />
+      <option name="PACKAGE_NAME" value="jumpgameii" />
+      <option name="MAIN_CLASS_NAME" value="jumpgameii.SolutionTest" />
+      <option name="METHOD_NAME" value="testJump_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testMultiple_numberNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testJump_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="PATTERN" value="jumpgameii.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="multiplystrings" />
-      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
-      <option name="METHOD_NAME" value="testMultiple_numberNumber" />
+      <option name="PACKAGE_NAME" value="jumpgameii" />
+      <option name="MAIN_CLASS_NAME" value="jumpgameii.SolutionTest" />
+      <option name="METHOD_NAME" value="testJump_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testMultiple_numberNumber_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testJump_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multiplystrings.*" />
+          <option name="PATTERN" value="jumpgameii.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="multiplystrings" />
-      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
-      <option name="METHOD_NAME" value="testMultiple_numberNumber_5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.testMultiple_numberNumber_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multiplystrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="multiplystrings" />
-      <option name="MAIN_CLASS_NAME" value="multiplystrings.SolutionTest" />
-      <option name="METHOD_NAME" value="testMultiple_numberNumber_6" />
+      <option name="PACKAGE_NAME" value="jumpgameii" />
+      <option name="MAIN_CLASS_NAME" value="jumpgameii.SolutionTest" />
+      <option name="METHOD_NAME" value="testJump_4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.testMultiple_numberDigits" />
-        <item itemvalue="JUnit.SolutionTest.testMultiple_numberNumber_5" />
-        <item itemvalue="JUnit.SolutionTest.testMultiple_numberNumber_6" />
-        <item itemvalue="JUnit.SolutionTest.testMultiple_numberNumber" />
+        <item itemvalue="JUnit.AppTest.generatePackageName" />
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.testJump_4" />
+        <item itemvalue="JUnit.SolutionTest.testJump_3" />
+        <item itemvalue="JUnit.SolutionTest.testJump_2" />
       </list>
     </recent_temporary>
   </component>

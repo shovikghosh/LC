@@ -34,7 +34,7 @@ public class AppTest {
     @Test
     public void generatePackageName() throws MalformedURLException {
 
-        String urlStr = "https://leetcode.com/problems/multiply-strings/description/";
+        String urlStr = "https://leetcode.com/problems/3sum-closest/description/";
 
         URL url = new URL(urlStr);
         String[] paths = url.getPath().split("/");
